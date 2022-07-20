@@ -1,6 +1,6 @@
 # Project - Fielo Challenge
 ### Techs used:  
-- Consult Inicial API (Postman)
+- Initial Consult API (Postman)
 - **HTML, CSS e React(Library)**
 - XMLHttpRequests Navigation: [**Axios**](https://axios-http.com/ptbr/docs/intro)
 
