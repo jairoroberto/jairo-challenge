@@ -4,13 +4,13 @@
 - **HTML, CSS e React(Library)**
 - XMLHttpRequests Navigation: [**Axios**](https://axios-http.com/ptbr/docs/intro)
 
-<br />
+
 
 ### CDNs:
 - Google Fonts: [Inter](https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap)
 - Icons: [IconsOut](https://iconscout.com/unicons/explore/line)
 
-<br />
+
 
 ## Feature React:
  - Generate FrontEnd Tooling: [Vite - React with TS](https://vitejs.dev)
