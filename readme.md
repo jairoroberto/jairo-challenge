@@ -1,9 +1,10 @@
 # Project - Fielo Challenge
 ### Techs used:  
+- Consult Inicial API (Postman)
 - **HTML, CSS e React(Library)**
 - XMLHttpRequests Navigation: [**Axios**](https://axios-http.com/ptbr/docs/intro)
 
-###CDNs:
+### CDNs:
 - [Google Fonts: Inter](https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap)
 - [Icons: IconsOut ](https://iconscout.com/unicons/explore/line)
 ## Feature React:
@@ -26,6 +27,9 @@ yarn dev
 | Yarn | https://classic.yarnpkg.com/en/
 | Axios | https://axios-http.com/ptbr/docs/intro
 | GitHub | https://github.com/ |
+| PostMan | https://www.postman.com/downloads/ |
+
+
 
 
 ### If Start New Project:
