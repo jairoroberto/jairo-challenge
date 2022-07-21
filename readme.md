@@ -52,6 +52,7 @@ yarn dev
 1. yarn create vite ProjectName --template react-ts
 2. cd ProjectName
 3. yarn install
-4. yarn dev
+4. yarn dev 
+5. . . . 
 ```
 . . .
