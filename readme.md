@@ -6,6 +6,7 @@
 
 
 #### App [Link Preview Browser](https://www.g3web.com.br/fielo/)
+<a href='https://www.g3web.com.br/fielo/' target='_blank'>Link Preview App</a>
 
 
 ### CDNs:
@@ -38,8 +39,10 @@ yarn dev
 
 <br /><br />
 
-# Screen <br /><br />
+# Screens <br /><br />
 [![Screen](https://g3web.com.br/fielo/screen.png)](https://g3web.com.br/fielo/screen.png)
+
+[!Postman](https://www.g3web.com.br/fielo/postman.png)
 
 
 <br /><br />
