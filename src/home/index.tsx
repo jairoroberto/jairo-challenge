@@ -4,6 +4,11 @@ import axios from 'axios'
 import Logo from '../assets/logo.png'
 import Thumb from '../assets/thumb.webp'
 
+
+/* Typescript/JS - Interface
+    Interface: Espero receber este formato de dados
+*/
+
 interface IUserList {
     id: string,
     image: string,
@@ -11,6 +16,7 @@ interface IUserList {
     balance: {
         currency: number,
         miles: number,
+        opcional?: number,
         points: number
     }
 }
@@ -55,10 +61,12 @@ export const Home = () => {
                 'x-access-token': token
             }
         }).then((response) => {
+            // Tipagem de dados - Declarado no inicio da interface 'as IUserList'
             const data = response.data as IUserList []
             setUsers(data.sort((a, b) => b.balance.points - a.balance.points ))        
         })
     }, [])
+    // Linha 68: Usamos os colchetes para passar o parametro 'token' como um array
 
     const getUserId = useCallback((id: string)=> {
         axios.get(URL + '/users/' + id, {
@@ -109,8 +117,8 @@ export const Home = () => {
                 image: response.data.image,
                 name: response.data.name,
                 balance: {
-                    //currency: response.data.balance.currency,
-                    currency: Math.round((response.data.balance.currency * 100) / 100),
+                    currency: response.data.balance.currency,
+                    //currency: Math.round((response.data.balance.currency * 100) / 100),
                     //currency: parseFloat(response.data.balance.currency).toFixed(2),
                     miles:  response.data.balance.miles,
                     points:  response.data.balance.points,
@@ -121,6 +129,7 @@ export const Home = () => {
         })        
     }, [token])
     
+
     useEffect(() => {
         axios.post(URL + '/auth', {
             headers: {
@@ -167,6 +176,7 @@ export const Home = () => {
                     </div>
     
                     <div className="card-body">
+                        {/* Linha 180: Usamos o 'map' para percorrer o array 'users'*/}
                         {users?.map((user, index) => (
                             <div className="row" key={user.id}>
                                 <a href="#" onClick={() => getUserId(user.id) }>
@@ -209,7 +219,7 @@ export const Home = () => {
                                 <span className="lb">Miles</span>
                             </div>
                             <div className="group-values">
-                                <i className="fa-regular fa-link-horizontal"></i> {userInfo.balance.currency}
+                                <i className="uil uil-dollar-alt"></i> {parseFloat(String (userInfo.balance.currency)).toFixed(2)}
                                 <span className="lb">Currency</span>
                             </div>
                         </div>
@@ -247,7 +257,6 @@ export const Home = () => {
                                 <div className="row" key={activity.id}>
                                     <div className="col col-icon">
                                         <i className="uil uil-compass"></i>
-                                        {/* <input checked type="radio" name="neutral" value={activity.description}/> */}
                                     </div>
                                     <div className="col col-content">
                                         <span className="date">{String(activity.date)}</span>
