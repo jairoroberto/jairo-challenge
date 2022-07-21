@@ -5,7 +5,7 @@
 - XMLHttpRequests Navigation: [**Axios**](https://axios-http.com/ptbr/docs/intro)
 
 
-#### App [Link Preview Browser](https://www.g3web.com.br/fielo/){:target="\_blank"}
+#### App [Link Preview Browser](https://www.g3web.com.br/fielo/){:target="_blank" rel="noopener"}
 
 
 ### CDNs:
@@ -15,7 +15,7 @@
 
 
 ## Feature React:
- - Generate FrontEnd Tooling: [Vite - React with TS](https://vitejs.dev){:target="\_blank"}
+ - Generate FrontEnd Tooling: [Vite - React with TS](https://vitejs.dev){:target="_blank" rel="noopener"}
  
 ### Installation and Running App
 
