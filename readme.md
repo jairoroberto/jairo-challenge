@@ -6,7 +6,7 @@
 
 
 #### App [Link Preview Browser](https://www.g3web.com.br/fielo/)
-<a href='https://www.g3web.com.br/fielo/' target='_blank'>Link Preview App</a>
+
 
 
 ### CDNs:
