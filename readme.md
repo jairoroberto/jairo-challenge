@@ -43,7 +43,7 @@ yarn dev
 [![Screen](https://g3web.com.br/fielo/screen.png)](https://g3web.com.br/fielo/screen.png)
 
 
-[!Postman](https://www.g3web.com.br/fielo/postman.png)](https://www.g3web.com.br/fielo/postman.png)
+[![Postman](https://www.g3web.com.br/fielo/postman.png)](https://www.g3web.com.br/fielo/postman.png)
 
 
 <br /><br />
