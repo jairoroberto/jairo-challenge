@@ -39,7 +39,7 @@ yarn dev
 
 <br /><br />
 
-# Screens <br /><br />
+# Screen <br /><br />
 [![Screen](https://g3web.com.br/fielo/screen.png)](https://g3web.com.br/fielo/screen.png)
 
 
@@ -54,3 +54,4 @@ yarn dev
 3. yarn install
 4. yarn dev
 ```
+. . .
