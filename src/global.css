@@ -375,6 +375,11 @@ img {
     margin-right: 5px;
 }
 
+.resume .group-values .uil-dollar-alt{
+    margin-right: -5px;
+} 
+
+
 .resume .group-values .lb {
     color: var(--color-light);
     font-size: 0.6rem;

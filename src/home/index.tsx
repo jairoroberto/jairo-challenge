@@ -158,7 +158,7 @@ export const Home = () => {
     return (
         <div className="wrapper" style={{backgroundImage: "URL('https://www.bing.com/th?id=OHR.OmijimaIsland_PT-BR9957032794_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp')"}}>
             <header className="header">
-                <a href="/" title="Home New Roots">
+                <a href="./" title="Home New Roots">
                     <img src={Logo} className="logo-header"  alt="New Roots" />
                 </a>
             </header>
@@ -219,7 +219,7 @@ export const Home = () => {
                                 <span className="lb">Miles</span>
                             </div>
                             <div className="group-values">
-                                <i className="uil uil-dollar-alt"></i> {parseFloat(String (userInfo.balance.currency)).toFixed(2)}
+                                <span><i className="uil uil-dollar-alt"></i> {parseFloat(String (userInfo.balance.currency)).toFixed(2)}</span>
                                 <span className="lb">Currency</span>
                             </div>
                         </div>
